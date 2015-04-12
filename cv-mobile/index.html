@@ -1,0 +1,59 @@
+
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>CV de Romain Semler</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="css/style-mobile.css" />
+</head>
+
+<body>
+	<div data-role="page" data-theme="b">
+
+		<div data-role="header" data-position="fixed">
+			<h1>Mon CV</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a class="ui-btn-active" id="home">Accueil</a></li>
+					<li><a id="about">À Propos</a></li>
+					<li><a href="../Download/CV_Semler_Romain_2013_2015.pdf">Format PDF</a></li>
+				</ul>
+			</div>
+		</div>
+		<div role="main" class="ui-content">
+			<section>
+				<!-- PAGE D'ACCUEIL -->
+				<div id="leftSide"></div>
+				<div id="rightSide"></div>
+				
+				<!-- RUBRIQUES DU CV -->
+				<ul id="rubriques" data-role="listview" class="ui-listview">
+					<li class="ui-first-child"><a id="diploma" class="boutonRubriques">Diplômes</a></li>
+					<li><a id="skills" class="boutonRubriques">Compétences</a></li>
+					<li><a id="projects" class="boutonRubriques">Réalisations</a></li>
+					<li><a id="proExp" class="boutonRubriques">Expériences Professionnelles</a></li>
+					<li><a id="hobbies" class="boutonRubriques">Intérêts</a></li>
+					<li class="ui-last-child"><a id="contact" class="boutonRubriques">Contact</a></li>
+				</ul>
+			</section>
+			
+			<!-- BOITE DE DIALOGUE - A PROPOS-->
+			<div id="description">
+				<p>Réalisé par Romain Semler<br />©2015<br /><br />Cet ensemble de pages, dédié à mon CV, est un projet réalisé durant ma seconde année
+				en informatique à l'IUT d'Aix-en-Provence dans le cadre des cours de JavaScript, JQuery et JQuery Mobile.</p>
+			</div>
+		</div>
+
+		<div id="footer" data-role="footer" data-position="fixed">
+			<h4>Dernière mise à jour : 31/03/2015</h4>
+			<h4>Romain Semler ©2015</h4>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js"></script>
+	<script src="js/main-mobile.js"></script>
+</body>
+</html>
