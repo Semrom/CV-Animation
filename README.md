@@ -9,6 +9,6 @@ Lien :
 http://semrom.fr/cv      
 
 Link (English Version) :    
-http://semrom.fr/en/cv
+http://semrom.fr/cv/en
 
 Romain Semler ©2015
