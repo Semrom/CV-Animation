@@ -6,9 +6,9 @@ Ce site est un projet personnel réalisé au département informatique de l'IUT 
 Le but du projet était de nous initier au JavaScript et à la bibliothèque JQuery en réalisant un site web contenant des animations et d'autres atouts de cette bibliothèque. J'ai choisi de présenter mon CV.
 
 Lien :    
-http://semrom.fr/cv      
+https://semrom.fr/cv      
 
 Link (English Version) :    
-http://semrom.fr/cv/en
+https://semrom.fr/cv/en
 
 Romain Semler ©2015
